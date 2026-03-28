@@ -22,7 +22,11 @@
 ## Запуск проекта
 ### Установка
 ```bash
-git clone <URL>
+git clone https://github.com/ivanovmatveywork/DODO_Test.git
+```
+### Переход в проект
+```bash
+cd DODO_Test
 ```
 ### Создание окружения
 ```bash
@@ -42,8 +46,9 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 ### Запуск
+Загрузите видео
 ```bash
-python main.py --video video1.mp4
+python main.py --video {video}
 ```
 
 ## Стек
