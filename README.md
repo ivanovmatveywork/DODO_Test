@@ -46,10 +46,10 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 ### Запуск
-Загрузите видео
 ```bash
-python main.py --video {video}
+python main.py --video {video_path}
 ```
+После первого запуска, начнется скачивание модели, а уже затем запустится программа.
 
 ## Стек
 * Ultralytics (Yolo)
